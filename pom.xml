@@ -15,4 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>server8848-releases</name>
+        <url>https://server8848.jfrog.io/server8848/Banking_1</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>server8848-snapshots</name>
+        <url>https://server8848.jfrog.io/server8848/Banking_1</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
