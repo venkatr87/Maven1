@@ -28,16 +28,16 @@
       </plugin>
     </plugins>
   </build>
-  <distributionManagement>
+<distributionManagement>
     <repository>
         <id>central</id>
-        <name>server8848-releases</name>
-        <url>https://server8848.jfrog.io/server8848/Banking_1</url>
+        <name>aolshared2a-releases</name>
+        <url>https://proj1.jfrog.io/proj1/Webapp-PC</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>server8848-snapshots</name>
-        <url>https://server8848.jfrog.io/server8848/Banking_1</url>
+        <name>aolshared2a-snapshots</name>
+        <url>https://proj1.jfrog.io/proj1/Webapp-PC</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
