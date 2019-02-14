@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.companyname.bank</groupId>
-  <artifactId>Webapp-PC</artifactId>
+  <artifactId>PHP_Artifact</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>consumerBanking</name>
@@ -31,13 +31,13 @@
   <distributionManagement>
     <repository>
         <id>central</id>
-        <name>PHP 1.0.0-releases</name>
-        <url>https://proj1.jfrog.io/proj1/Webapp-PC</url>
+        <name>PHP_Artifact1.0.0-releases</name>
+        <url>https://proj1.jfrog.io/proj1/webapp/</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>PHP 1.0.0-snapshots</name>
-        <url>https://proj1.jfrog.io/proj1/Webapp-PC</url>
+        <name>PHP_Artifact1.0.0-snapshots</name>
+        <url>https://proj1.jfrog.io/proj1/webapp</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
