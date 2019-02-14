@@ -28,4 +28,16 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>PHP 1.0.0-releases</name>
+        <url>https://proj1.jfrog.io/proj1/Webapp-PC</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>PHP 1.0.0-snapshots</name>
+        <url>https://proj1.jfrog.io/proj1/Webapp-PC</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
